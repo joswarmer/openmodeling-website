@@ -1,0 +1,8 @@
+Found 6 unused images:
+	Not used: en.gif.
+	Not used: itemis.gif.
+	Not used: logo.png.
+	Not used: nl.gif.
+	Not used: openmodeling-logo.svg.
+	Not used: openmodeling-logo2.svg.
+Total errors: 0, total warnings: 6.
