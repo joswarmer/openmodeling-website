@@ -11,7 +11,7 @@ The first code to be donated to Spray was written by Jos Warmer and has been use
 
 <Note><svelte:fragment slot="header">Discontinued</svelte:fragment>
 <svelte:fragment slot="content">
-<p>When the unde;lying Graphity project was cancelled, the Spray project was also discontinued.</p>
+<p>When the underlying Graphity project was cancelled, the Spray project was also discontinued.</p>
 </svelte:fragment></Note>
 
 The Graphiti framework is a new approach to create highly sophisticated visual editors on top of the GEF framework.

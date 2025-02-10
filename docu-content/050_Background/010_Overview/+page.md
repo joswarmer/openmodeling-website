@@ -1,2 +1,0 @@
-# A Bit of Background
-

@@ -14,6 +14,4 @@ The IDE being developed is based on Eclipse and uses (amongst others) the follow
 * Xtend for validation
 * Tycho for continuous integration
 
-# End
 
-jsjs

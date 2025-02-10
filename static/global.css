@@ -27,7 +27,7 @@
 	--theme-colors-FRE_BEIGE2: #fd723f;
 	--theme-colors-FRE_BROWN: #6c0500;
 	--theme-colors-FRE_DARKER: #6c0500;
-	--theme-colors-FRE_ACCENT: #6c0500;
+	--theme-colors-FRE_ACCENT: #b60a02;
 	--theme-colors-FRE_LINK: #DE6B48;
 	--theme-colors-FRE_LINK_DARK: #fb9371;
 	--theme-colors-FRE_CODE: green;
@@ -250,16 +250,20 @@ li {
 	margin-right: 1rem;
 }
 .landing-main-text {
+	/*background-image: url('images/jos.jpg');*/
 	border: var(--color3);
 	border-style: solid;
-	margin: 2rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 .landing-started {
 	margin: 0rem;
-	font-size: 2em;
+	font-size: 1em;
 	font-weight: bolder;
 	text-align: center;
-	padding: 0.5rem 0.5rem;
+	padding: 0.2rem 0.2rem;
 	/*margin-bottom: 1.7rem;*/
 	float: right;
 	border: var(--color3);
@@ -316,7 +320,11 @@ li {
 /* Styles for button grid */
 .landing-enter-buttons-grid {
 	display: inline-grid;
-	padding: 2rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	/*padding: 2rem;*/
 }
 .page-buttons-grid {
 	display: inline-grid;
@@ -459,3 +467,14 @@ code {
 	/*font-size: 0.93rem;*/
 	color: var(--color-code);
 }
+.image-meinte {
+	max-height: 200px;
+}
+.image-jos {
+	float: right;
+	border: 1px dotted black;
+	margin: 0px 0px 15px 20px;
+	width: 15%;
+	height: auto;
+}
+

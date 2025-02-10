@@ -1,3 +1,0 @@
-# Mendix Meta Tooling
-
-

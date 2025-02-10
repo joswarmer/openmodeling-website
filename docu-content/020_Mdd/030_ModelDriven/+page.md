@@ -5,7 +5,7 @@ Model Driven Development is defined as automation of software development by use
 There often is confusion about the meaning of Model Driven Development.
 We make a clear distinction between Model Based Development and Model Driven Development.
 
-# Model Driven Development (MDD)
+## Model Driven Development (MDD)
 
 MDD is software development where software is automatically derived from one or more models.
 The automation here is crucial,  the models literally drive the software development.
@@ -16,7 +16,7 @@ There are several techniques to achieve this.
 
 Both techniques have their pros and cons, and the best choice depends very much on the context.
 
-# Model Based Development (MBD)
+## Model Based Development (MBD)
 
 MBD is software development where models are used, but not to automatically derive software.
 Models are used for e.g documentation,  explanation and communication. Developers then take the

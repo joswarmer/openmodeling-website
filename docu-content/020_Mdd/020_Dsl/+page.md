@@ -3,7 +3,7 @@
 Model driven development is usually based on so-called Domain Specific Languages.
 Such a language is specially developed to enable high expressive power in a chosen domain.
 
-### Horizontal versus vertical DSL
+## Horizontal versus vertical DSL
 
 A horizontal DSL is a DSL that has a technical domain.
 As these are technical DSLs,  they are usually used by developers to make writing software easier.
@@ -16,7 +16,8 @@ The PMW project that we have been doing  includes a DSL for specifying insurance
 
 The potential gain of business or vertical DSLs is higher than of vertical DSLs, because the gap between requirements end development is closed.
 The requirements as laid down in the models by the business people are directly translated to the resulting software.
-### Internal versus external DSL
+
+## Internal versus external DSL
 
 An internal DSL is a DSL that can be defined within an existing general purpose language.
 That is,  the base language contains the possibility to extend itself with new constructs.

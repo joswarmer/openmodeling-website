@@ -1,4 +1,0 @@
-# Medical Trials DSL
-
-Clario
-
