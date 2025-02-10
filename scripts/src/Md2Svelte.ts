@@ -101,9 +101,9 @@ export class Md2Svelte {
 		///////////////
 		// console.log(`FILEPATH ${filepath} ignore ${ignore} route ${route}`)
 		// console.log(`  LEVELS 1: ${JSON.stringify(level1.name)}   2: ${JSON.stringify(level2.name)}`)
-		if (level2.name === "Overview") {
+		if (level2?.name === "Overview") {
 			// Add subpages to page
-			markdown += '<section class="landing-enter-buttons-grid">'
+			markdown += '<section class="page-buttons-grid">'
 			for(const con of level1.content) {
 				if (con.name !== "Overview") {
 					const compiledCon = await compile(con.content[0].markdown, {
@@ -157,7 +157,7 @@ ${this.changeH1tagsForAsbtract(compiledCon.code)}
 				if (level !== 3) { // level 3 indicates a category, do not create another +layout.svelte
 					// Create and write the page layout including a page nav
 					const layoutPath: string = routeName + path.sep + '+page.svelte';
-					fs.writeFileSync(outputFolder + path.sep + layoutPath, pageContent);
+					fs.writeFileSync(outputFolder + path.sep + layoutPath, pageContent(!routeName.endsWith("Overview")));
 				}
 			}
 			// change name from '+page.svelte' to 'PageContent.svelte'

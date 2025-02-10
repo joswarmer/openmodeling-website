@@ -1,5 +1,5 @@
-export const pageContent: string =
-`<script lang="ts">
+export function pageContent(withToc: boolean): string  {
+    return `<script lang="ts">
   import { mySections } from './SectionStore.js';
   import type { Section } from '$lib/section/SectionType.js';
   import PageContent from './PageContent.svelte';
@@ -22,7 +22,8 @@ export const pageContent: string =
   }
 </script>
 
-<div class="page-main">
+<div class="${withToc ? "page-main" : "page-main-notoc"}">
+  {#if ${withToc} }
   <div class='page-toc-small'>
     <p class='page-toc-small-title'>On this page ...</p>
     <button class='page-toc-small-expand-button' on:click={() => {toggleTocDetails()}  }>
@@ -46,11 +47,13 @@ export const pageContent: string =
         </ul>
       </div>
     {/if}
+{/if}
 
 	<Breadcrumb />
   <PageContent />
 </div>
 
+{#if ${withToc} }
 <nav class="page-toc">
   <h3 class="page-toc-title">On this page</h3>
   <ul class="page-ul">
@@ -63,7 +66,8 @@ export const pageContent: string =
     {/each}
   </ul>
 </nav>
-`;
+{/if}
+`};
 
 export function  categoryLayoutContent(contentName: string): string {
 return	`<script lang="ts">

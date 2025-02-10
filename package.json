@@ -1,10 +1,10 @@
 {
-	"name": "FreonDocumentation",
+	"name": "open-modeling-website",
 	"version": "1.0.0",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/freon4dsl/Freon-documentation"
+		"url": "https://github.com/joswarmer/openmodeling-website"
 	},
 	"scripts": {
 		"install-examples": "cd ./scripts && npm run install-examples && cd ../",

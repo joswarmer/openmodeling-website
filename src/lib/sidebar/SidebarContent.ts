@@ -3,13 +3,17 @@ import { type CategoryInfoType, type TocContentsType } from '$lib/sidebar/TocCon
 export const freonToc: TocContentsType = 
    { name: 'Freon', markdown: `PATH: /Freon`, path: '/Freon',
      content: [
-      { name: 'Overview', markdown: `undefined`, path: '/Freon/Overview',
+      { name: 'All', markdown: `undefined`, path: '/Freon/All',
         content: [
-         { name: 'Overview', markdown: `# Freon
+         { name: 'All', markdown: `#  Freon - The Language Workbench for the Web.
 
-The Lamnguage Workbench for the Web.
+Freon is a web native language workbench, developed by Jos Warmer and Anneke Kleppe.
+Freon is used to define Domain Specific Languages and the tooling needed to work with these languages.
 
-`, path: '/Freon/Overview'},
+The goal of Freon is to stimulate the use of DSL's on the web.
+For this reason Freon is open source under the MIT license, so everyone can use it.
+
+`, path: '/Freon/All'},
        ]},
     ]};
 export const booksToc: TocContentsType = 
@@ -20,8 +24,9 @@ export const booksToc: TocContentsType =
          { name: 'Overview', markdown: `# Books
 
 
-I have written a number of books varous modeling subjects.
+Jos Warmer has written a number of books on various modeling subjects.
 A description of these books is shown below.
+
 
 `, path: '/Books/Overview'},
        ]},
@@ -59,51 +64,32 @@ export const newsToc: TocContentsType =
         content: [
          { name: 'Overview', markdown: `# News
 
+Todo
 `, path: '/News/Overview'},
        ]},
-      { name: 'About the Authors', markdown: `undefined`, path: '/News/About_the_Authors',
+      { name: 'Freon Release', markdown: `undefined`, path: '/News/Freon_Release',
         content: [
-         { name: 'About the Authors', markdown: `# About the Authors
+         { name: 'Freon Release', markdown: `# Freon 1.0.0 Release
 
-Freon is a brainchild of **Jos Warmer** and **Anneke Kleppe**.
-Both authors have many years of experience in working with software languages and DSLs in particular.
+February 2024. 
 
-Jos and Anneke met at the University of Amsterdam in the 1980s, where they both received a 
-thorough education in software development. Anneke graduated in Theoretical Computer Science, 
-whereas Jos took a more practical approach with Software Engineering. From then on they have 
-been working in the industry (KPN Research, IBM, Mendix, De Nederlandsche Bank, ...), 
-but always with an interest in research. That is the reason 
-that over the years they have published many scientific papers, and during some periods were employed by
-universities. Currently, they are working independently, with their main focus on building DSLs.
+In February 2024 the new version of Freon, named 1.0.0. has been released.
+This version has a number of new features, notably:
 
-In 1995 Jos, when working for IBM, became involved in the standardization of the Unified Modeling Language.
-His unique contribution to the standard is the Object Constraint Language (OCL), a language in which 
-extra rules, called constraints, about UML classes etc. can be expressed.
+- Possibility to plugin your own Svelte components allowing the editor te be fully customized to the specific users.
+- Interpreter framework making it easy to write an interpreter for your language.
+- [LionWeb](/LionWeb) integration, ensuring that there is no tool lock-in when using Freon.
+  All the languages and models are readable and processable by any LionWeb enabled tool.
+`, path: '/News/Freon_Release'},
+       ]},
+      { name: 'LionWeb Release 2024', markdown: `undefined`, path: '/News/LionWeb-Release-2024',
+        content: [
+         { name: 'LionWeb Release 2024', markdown: `# LionWeb 2024.1 Release
 
-Both together and separately, Jos and Anneke wrote a number of books, some of them are listed below.
-
-- **Software Language Engineering - Creating Domain-Specific Languages Using Metamodels**
-
-  This book systematically introduces and explains every ingredient of an effective
-  language specification, including its description of concepts, how those concepts are
-  denoted, and what those concepts mean in relation to the problem domain.
-
-- **The Object Constraint Language - Getting Your Models Ready for MDA**
-
-  The Object Constraint Language - Getting Your Models Ready for MDA, is **the** book on OCL.
-  OCL is the standard constraint language for UML and especially popular at the meta modeling level.
-
-- **MDA Explained**
- 
-  MDA Explained gives a complete overview of the Model Driven Architecture.
-
-- **Praktisch UML, 5de editie**
-  (_Praktisch UML is a Dutch book, therefore this text is in Dutch._)
-
-  Praktisch UML is het Nederlandstalige standaardwerk over UML. 
-  Praktisch UML is een handleiding voor het toepassen van de Unified Modeling Language (UML), 
-  de standaard voor objectgeoriënteerde analyse en ontwerp, die sinds 1997 wereldwijd gebruikt wordt.
-`, path: '/News/About_the_Authors'},
+LionWeb 2024.1 extends the LionWeb specification with the Bulk Protocol for LioWeb repositories.
+This protocol describes the API with a LionWeb repository, allowing models to be stored
+and retrieved from a repository in a standard way.
+`, path: '/News/LionWeb-Release-2024'},
        ]},
     ]};
 export const mddToc: TocContentsType = 
@@ -141,7 +127,7 @@ We make a clear distinction between Model Based Development and Model Driven Dev
          { name: 'Advantages', markdown: `# MDD Advantages
 
 The most successful way of doing model driven development is through the use of domain specific languages (DSL),
-with an integrated code generator.
+with an integrated code generator and or interpreter.
 A DSL is a language specifically designed for a domain, using the terminology of the domain experts as concepts
 in the language.
 Advantages of use a DSL can be found at multiple levels.
@@ -235,7 +221,13 @@ export const lionWebToc: TocContentsType =
      content: [
       { name: 'Overview', markdown: `undefined`, path: '/LionWeb/Overview',
         content: [
-         { name: 'Overview', markdown: `# LionWeb Integration
+         { name: 'Overview', markdown: `# LionWeb
+
+The LionWeb initiative (see <a target="_blank" href="https://github.com/LionWeb-io">LionWeb @ Github</a>) aims to make 
+language engineering  tools interoperable on the web.
+LionWeb does this by specifying
+- how language definitions and models can be interchanged in a well-defined JSON format.
+- a server protocol for storing and retrieving models in a repository.
 
 `, path: '/LionWeb/Overview'},
        ]},
@@ -295,57 +287,13 @@ export const backgroundToc: TocContentsType =
         content: [
          { name: 'Overview', markdown: `# A Bit of Background
 
-It took a few years to create Freon, but more importantly it took a lot of experience: experience with building software 
-in general, experience with creating languages like UML and OCL, experience with creating a large number of DSLs,
-experience with the tools available for building DSLs. In short, Freon is the result of a lifetime of experience,
-and with that, the lessons learned.
-
-A few of these lessons are explained below to give you an insight in the motives and guiding principles behind Freon.
-
 `, path: '/Background/Overview'},
        ]},
       { name: 'About the Authors', markdown: `undefined`, path: '/Background/About_the_Authors',
         content: [
          { name: 'About the Authors', markdown: `# About the Authors
 
-Freon is a brainchild of **Jos Warmer** and **Anneke Kleppe**.
-Both authors have many years of experience in working with software languages and DSLs in particular.
-
-Jos and Anneke met at the University of Amsterdam in the 1980s, where they both received a 
-thorough education in software development. Anneke graduated in Theoretical Computer Science, 
-whereas Jos took a more practical approach with Software Engineering. From then on they have 
-been working in the industry (KPN Research, IBM, Mendix, De Nederlandsche Bank, ...), 
-but always with an interest in research. That is the reason 
-that over the years they have published so many scientific papers, and during some periods were employed by
-universities. Currently, they are working independently, with their main focus on building DSLs.
-
-In 1995 Jos, when working for IBM, became involved in the standardization of the Unified Modeling Language.
-His unique contribution to the standard is the Object Constraint Language (OCL), a language in which 
-extra rules, called constraints, about UML classes etc. can be expressed.
-
-Both together and separately, Jos and Anneke wrote a number of books, some of them are listed below.
-
-- **Software Language Engineering - Creating Domain-Specific Languages Using Metamodels**
-
-  This book systematically introduces and explains every ingredient of an effective
-  language specification, including its description of concepts, how those concepts are
-  denoted, and what those concepts mean in relation to the problem domain.
-
-- **The Object Constraint Language - Getting Your Models Ready for MDA**
-
-  The Object Constraint Language - Getting Your Models Ready for MDA, is **the** book on OCL.
-  OCL is the standard constraint language for UML and especially popular at the meta modeling level.
-
-- **MDA Explained**
- 
-  MDA Explained gives a complete overview of the Model Driven Architecture.
-
-- **Praktisch UML, 5de editie**
-  (_Praktisch UML is a Dutch book, therefore this text is in Dutch._)
-
-  Praktisch UML is het Nederlandstalige standaardwerk over UML. 
-  Praktisch UML is een handleiding voor het toepassen van de Unified Modeling Language (UML), 
-  de standaard voor objectgeoriënteerde analyse en ontwerp, die sinds 1997 wereldwijd gebruikt wordt.
+TODO
 `, path: '/Background/About_the_Authors'},
        ]},
     ]};

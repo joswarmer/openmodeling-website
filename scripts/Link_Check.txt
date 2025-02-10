@@ -2,6 +2,8 @@ Found 1 warnings in file 020_Mdd/010_Overview/+page.md:
 	TODO remaining on line 3
 Found 1 incorrect link(s) in file 030_Projects/010_Overview/+page.md:
 	/Documentation/Overview/Getting_Started, on line 5
-Found 1 incorrect link(s) in file 050_Background/010_Overview/+page.md:
-	/Background/Projectional_Editing, on line 43
-Total errors: 2, total warnings: 1.
+Found 1 incorrect link(s) in file 045_LionWeb/010_Overview/+page.md:
+	/Freon/Overview, on line 25
+Found 1 warnings in file 050_Background/040_About_the_Authors/+page.md:
+	TODO remaining on line 3
+Total errors: 2, total warnings: 2.

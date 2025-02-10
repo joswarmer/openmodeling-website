@@ -1,7 +1,6 @@
 <script lang="ts">
 	import ThemeToggle from '$lib/theming/ThemeToggle.svelte';
 	import MenuIcon from '$lib/icons/MenuIcon.svelte';
-	import GithubLogo from '$lib/icons/GithubLogo.svelte';
 	import Tooltip from '../buttons/Tooltip.svelte';
 	import { popoverElem } from '$lib/Store.js';
 	import PopoverMenu from '$lib/appbar/PopoverMenu.svelte';
@@ -67,10 +66,4 @@
 			<ThemeToggle />
 		</Tooltip>
 	</span>
-
-	<a target="_blank" href="https://github.com/freon4dsl/Freon4dsl.git" class="app-bar-linkLogo">
-		<Tooltip tip="github source" bottom>
-			<GithubLogo />
-		</Tooltip>
-	</a>
 </div>

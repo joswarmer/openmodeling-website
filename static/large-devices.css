@@ -37,7 +37,7 @@
         margin: 2rem;
     }
     /* Styles for button grid */
-    .landing-enter-buttons-grid {
+    .landing-enter-buttons-grid, .page-buttons-grid {
         grid-template-columns: repeat(3, minmax(0, 1fr));
         column-gap: 20px;
         row-gap: 20px;
@@ -52,6 +52,11 @@
     .page-main {
         margin-left: 1rem; 	/* width of page-side-nav + left of page-side-nav */
         margin-right: 15rem; 	/* width of page-toc + right of page-toc */
+        padding: 2rem;
+    }
+    .page-main-notoc {
+        margin-left: 1rem; 	/* width of page-side-nav + left of page-side-nav */
+        margin-right: 1rem; 	/* width of page-toc + right of page-toc */
         padding: 2rem;
     }
     .page-side-nav {

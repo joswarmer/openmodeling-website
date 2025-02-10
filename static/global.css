@@ -187,6 +187,7 @@ a:hover {
 
 li {
 	padding: 0.2rem;
+	color: var(--color-text);
 }
 .main-window {
 	margin-top: var(--fre-header-height);
@@ -315,7 +316,11 @@ li {
 /* Styles for button grid */
 .landing-enter-buttons-grid {
 	display: inline-grid;
-	padding: 1rem;
+	padding: 2rem;
+}
+.page-buttons-grid {
+	display: inline-grid;
+	padding: 0rem;
 }
 .landing-enter-button {
 	background-color: var(--color2);
@@ -329,7 +334,7 @@ li {
 	border-width: 1px;
 }
 .landing-enter-button a {
-	color: var(--color1); 
+	color: var(--color-link); 
 }
 .landing-enter-button a:visited {
 	color: var(--color5);

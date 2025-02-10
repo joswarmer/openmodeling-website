@@ -46,11 +46,24 @@
 
 		<section class="landing-enter-buttons-grid">
 			<a href="/Background/Overview" class="landing-enter-button"
-				><h3>Guiding Principles</h3>
+			><h3>Freon 1.0.0 Released</h3>
 				<p>
-					Freon was created using a lifetime of experience with software development, especially with developing softare languages. All this
-					experience has let to a number of great guiding principles for software development, which are being used in the development of
-					this tool. We happily share our insights with you.
+					Februari 2024. The new 1.0.0 version of Freon was released. Next to a large amount of small improvements,
+					the following new features are available:
+				</p>
+					<ul>
+						<li>Interpreter Framework, making it easy to write interpreters for a DSL.</li>
+					<li>External editor components, allowing language engineers to use their own components in the Freom projectional editor.
+						This makes the editor 
+					</li>
+					</ul>
+				<p>Learn more...</p>
+			</a>
+			<a href="/LionWeb/Overview" class="landing-enter-button"
+			><h3>LionWeb 2024.1</h3>
+				<p>
+					December 2024. LionWeb 2024.1 has been released. This version adds the repository bulk prototcol to the specification.
+					In the lionweb-repository github project a full reference implementation of the protocol is available.
 				</p>
 				<p>Learn more...</p>
 			</a>

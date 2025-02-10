@@ -1,7 +1,7 @@
 # Books
 
 
-I have written a number of books varous modeling subjects.
+Jos Warmer has written a number of books on various modeling subjects.
 A description of these books is shown below.
 
-# More
+
