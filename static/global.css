@@ -94,7 +94,8 @@ body {
 body.dark {
 	/* The dark settings */
 	--color1: var(--theme-colors-FRE_DARKER);
-	--color2: var(--theme-colors-FRE_BROWN);
+	--color2: black;
+/*var(--theme-colors-FRE_YELLOW);*/
 	--color3: var(--theme-colors-FRE_BEIGE);
 	--color4: var(--theme-colors-FRE_ORANGE);
 	--color5: var(--theme-colors-FRE_YELLOW);
