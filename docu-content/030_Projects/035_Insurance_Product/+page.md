@@ -16,9 +16,8 @@ rejected the DSL.
 We proposed to try out MPS, as the projectional editors in MPS allow for a DSL
 that comes close to the way that the insurance experts already worked.
 
-After a small PoC, the experts agreed and we debveloped the DSL in MPS.
+After a small PoC, the experts agreed and we developed the DSL in MPS.
 
-This work was done in collaboration with our business partner Itemis.
 
 
 

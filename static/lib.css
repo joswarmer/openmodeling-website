@@ -137,10 +137,9 @@
     z-index: 20;
 }
 .copyright {
+    font-size: 0.9rem;
     color: var(--color1);
-    font-size: 11px;
     position: relative;
-    bottom: 6px;
 }
 .copyright a {
     color: var(--color3)

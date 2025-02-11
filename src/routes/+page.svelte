@@ -28,7 +28,8 @@
 			<div class="landing-text">
 				<p><img src="/images/jos2.jpg" class="image-jos" /></p>
 				<p class="see-me">
-					OpenModeling is the website of Jos Warmer, specialized in model driven development (MDD). I believe that applying MDD can result
+					OpenModeling is the website of <a target="_blank" href="https://www.linkedin.com/in/jos-warmer-634146/">Jos Warmer</a>,
+					specialized in model driven development (MDD). I believe that applying MDD can result
 					in big improvements in software development. And I do mean vastly, hugely, mindbogglingly big improvements. That is, in the right
 					context and applied correctly. The most successful project and companies using MDD almost exclusively use Domain Specific
 					Languages. They define their own DSLs for their own specific domain and then build an environment suitable for working with these

@@ -1,4 +1,4 @@
-# Development of Domain Specific Languages
+# Development of Domain Specific Languages on the Web
 
 We can help you to develop your own Domain Specific Language for your own technical or business domain.
 

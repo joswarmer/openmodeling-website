@@ -3,17 +3,17 @@ import { type CategoryInfoType, type TocContentsType } from '$lib/sidebar/TocCon
 export const freonToc: TocContentsType = 
    { name: 'Freon', markdown: `PATH: /Freon`, path: '/Freon',
      content: [
-      { name: 'All', markdown: `undefined`, path: '/Freon/All',
+      { name: 'Overview', markdown: `undefined`, path: '/Freon/Overview',
         content: [
-         { name: 'All', markdown: `#  Freon - The Language Workbench for the Web.
+         { name: 'Overview', markdown: `#  Freon - The Language Workbench for the Web.
 
 Freon is a web native language workbench, developed by Jos Warmer and Anneke Kleppe.
 Freon is used to define Domain Specific Languages and the tooling needed to work with these languages.
 
-The goal of Freon is to stimulate the use of DSL's on the web.
+The goal of Freon is to stimulate the use of DSL's on the web. 
 For this reason Freon is open source under the MIT license, so everyone can use it.
 
-`, path: '/Freon/All'},
+`, path: '/Freon/Overview'},
        ]},
     ]};
 export const booksToc: TocContentsType = 
@@ -64,7 +64,6 @@ export const newsToc: TocContentsType =
         content: [
          { name: 'Overview', markdown: `# News
 
-Todo
 `, path: '/News/Overview'},
        ]},
       { name: 'Freon Release', markdown: `undefined`, path: '/News/Freon_Release',
@@ -73,23 +72,36 @@ Todo
 
 February 2024. 
 
-In February 2024 the new version of Freon, named 1.0.0. has been released.
+In February 2024 the new version of [Freon](/Freon/Overview), named 1.0.0. has been released.
 This version has a number of new features, notably:
 
 - Possibility to plugin your own Svelte components allowing the editor te be fully customized to the specific users.
 - Interpreter framework making it easy to write an interpreter for your language.
 - [LionWeb](/LionWeb) integration, ensuring that there is no tool lock-in when using Freon.
   All the languages and models are readable and processable by any LionWeb enabled tool.
+
+
 `, path: '/News/Freon_Release'},
        ]},
       { name: 'LionWeb Release 2024', markdown: `undefined`, path: '/News/LionWeb-Release-2024',
         content: [
          { name: 'LionWeb Release 2024', markdown: `# LionWeb 2024.1 Release
 
-LionWeb 2024.1 extends the LionWeb specification with the Bulk Protocol for LioWeb repositories.
+LionWeb 2024.1 extends the [LionWeb](/LionWeb/Overview) specification with the Bulk Protocol for LionWeb repositories.
 This protocol describes the API with a LionWeb repository, allowing models to be stored
 and retrieved from a repository in a standard way.
+
+Next to the specification a reference implementation of the LionWeb repository is available.
 `, path: '/News/LionWeb-Release-2024'},
+       ]},
+      { name: ' DSL Book', markdown: `undefined`, path: '/News/_DSL_Book',
+        content: [
+         { name: ' DSL Book', markdown: `# DSL Book Published
+
+_October 2024_. After several years of hard work, Meine Boersma published his book
+_Building User-Friendly DSLs_.
+
+`, path: '/News/_DSL_Book'},
        ]},
     ]};
 export const mddToc: TocContentsType = 
@@ -97,9 +109,22 @@ export const mddToc: TocContentsType =
      content: [
       { name: 'Overview', markdown: `undefined`, path: '/Mdd/Overview',
         content: [
-         { name: 'Overview', markdown: `# MDD
+         { name: 'Overview', markdown: `# Model Driven Development
 
-TODO
+Model Driven Development has many acronyms that are all used for slightly different but often overlapping things, we encounter:
+ 
+- MDD - Model SDriven Developemnt
+- MDA - Model Driven Architecture
+- MDSE - Model Driven Software Engineering
+- MBSD - Model Based Softwa Development 
+- MDE - Model Driven Engineering
+- DSM - Domain Specific Modeling
+- DSL - Domain Specific languages
+
+I won't try to explain the differences (on which people often disagree anyway :-)).
+Instead, the pages shown below give an overview of how I view the modeling / language engineering world.
+
+
 `, path: '/Mdd/Overview'},
        ]},
       { name: 'Dsl', markdown: `undefined`, path: '/Mdd/Dsl',
@@ -142,12 +167,63 @@ export const projectsToc: TocContentsType =
         content: [
          { name: 'Overview', markdown: `# Projects
 
-In this section of the website we have gathered a number of examples that each focus on one more advanced topic. 
-During the upcoming year we plan to add more examples to this list. For now, the following examples are available.
-You can find the sources for each of the example on GitHub. See [Getting Started](/Documentation/Overview/Getting_Started)
-for information on how to install the examples on your computer.
+In this section of the website I have collected a number of the projects that I have been
+involved with in various roles.
 
 `, path: '/Projects/Overview'},
+       ]},
+      { name: 'Medical Trials Dsl', markdown: `undefined`, path: '/Projects/Medical_Trials_Dsl',
+        content: [
+         { name: 'Medical Trials Dsl', markdown: `# Medical Trials DSL
+
+Clario is acompany that specializes in organizing medical trials.
+Medical trial need to be specified very prciely to ensure that the evidence coming from a trial can be trusted.
+Traials can be done for drugs, but also for medical devices.
+
+`, path: '/Projects/Medical_Trials_Dsl'},
+       ]},
+      { name: 'Tax Office ALEF', markdown: `undefined`, path: '/Projects/Tax_Office_ALEF',
+        content: [
+         { name: 'Tax Office ALEF', markdown: `# ALEF
+
+ALEF stands for Agile Law Execution Factory.
+this tool is based on the 'RegelSpraak' DSL and is developed at the Dutch Tax Administration (DTA).
+
+`, path: '/Projects/Tax_Office_ALEF'},
+       ]},
+      { name: 'Mendix Meta Tooling', markdown: `undefined`, path: '/Projects/Mendix_Meta_Tooling',
+        content: [
+         { name: 'Mendix Meta Tooling', markdown: `# Mendix Meta Tooling
+
+For several yars I have worked at the Mendix R&D department.
+I was responsible for setting up their metamodel toolchain.
+
+`, path: '/Projects/Mendix_Meta_Tooling'},
+       ]},
+      { name: 'Insurance Product', markdown: `undefined`, path: '/Projects/Insurance_Product',
+        content: [
+         { name: 'Insurance Product', markdown: `# Insurance Product
+
+Cleva (formerly I2S) is a Portuguese company that 
+develops a product for Insurance companies.
+
+`, path: '/Projects/Insurance_Product'},
+       ]},
+      { name: 'Product Modeling Workbench', markdown: `undefined`, path: '/Projects/Product_Modeling_Workbench',
+        content: [
+         { name: 'Product Modeling Workbench', markdown: `# Product Modeling Workbench
+
+The Product Modeling Workbench (PMW)  is based on a DSL for specifying insurance products called the Product Specification Diagram (PSD) notation.
+
+`, path: '/Projects/Product_Modeling_Workbench'},
+       ]},
+      { name: 'Visual Editor', markdown: `undefined`, path: '/Projects/Visual_Editor',
+        content: [
+         { name: 'Visual Editor', markdown: `# Visual Editor Prototype for Pattern Expressions
+
+For FMTC, we built a fully working prototype of a visual expression editor.
+
+`, path: '/Projects/Visual_Editor'},
        ]},
       { name: 'Mobile app ide', markdown: `undefined`, path: '/Projects/Mobile_app_ide',
         content: [
@@ -158,14 +234,6 @@ Using this platform you can write an application once, and it will then run on m
 
 `, path: '/Projects/Mobile_app_ide'},
        ]},
-      { name: 'Product Modeling Workbench', markdown: `undefined`, path: '/Projects/Product_Modeling_Workbench',
-        content: [
-         { name: 'Product Modeling Workbench', markdown: `# Product Modeling Workbench
-
-The Product Modeling Workbench (PMW)  is based on a DSL for specifying insurance products called the Product Specification Diagram (PSD) notation.
-
-`, path: '/Projects/Product_Modeling_Workbench'},
-       ]},
       { name: 'Spray', markdown: `undefined`, path: '/Projects/Spray',
         content: [
          { name: 'Spray', markdown: `# Spray - A Quick Way to Generate Graphiti
@@ -174,46 +242,6 @@ The Spray project is a collection of DSLs that allow quick and easy development 
 The first code to be donated to Spray was written by Jos Warmer and has been used in the PMW project to develop the visual editors.
 
 `, path: '/Projects/Spray'},
-       ]},
-      { name: 'Visual Editor', markdown: `undefined`, path: '/Projects/Visual_Editor',
-        content: [
-         { name: 'Visual Editor', markdown: `# Visual Editor Prototype for Pattern Expressions
-
-For FMTC, we built a fully working prototype of a visual expression editor.
-
-`, path: '/Projects/Visual_Editor'},
-       ]},
-      { name: 'Tax Office ALEF', markdown: `undefined`, path: '/Projects/Tax_Office_ALEF',
-        content: [
-         { name: 'Tax Office ALEF', markdown: `# ALEF
-
-ALEF is the DSl workbench used by the Dutch Tax Office.
-
-`, path: '/Projects/Tax_Office_ALEF'},
-       ]},
-      { name: 'Mendix Meta Tooling', markdown: `undefined`, path: '/Projects/Mendix_Meta_Tooling',
-        content: [
-         { name: 'Mendix Meta Tooling', markdown: `# Mendix Meta Tooling
-
-
-`, path: '/Projects/Mendix_Meta_Tooling'},
-       ]},
-      { name: 'Medical Trials Dsl', markdown: `undefined`, path: '/Projects/Medical_Trials_Dsl',
-        content: [
-         { name: 'Medical Trials Dsl', markdown: `# Medical Trials DSL
-
-Clario
-
-`, path: '/Projects/Medical_Trials_Dsl'},
-       ]},
-      { name: 'Insurance Product', markdown: `undefined`, path: '/Projects/Insurance_Product',
-        content: [
-         { name: 'Insurance Product', markdown: `# Insurance Product
-
-Cleva (formerly I2S) is a Portuguese company that 
-develops a product for Insurance companies.
-
-`, path: '/Projects/Insurance_Product'},
        ]},
     ]};
 export const lionWebToc: TocContentsType = 
@@ -243,7 +271,7 @@ export const servicesToc: TocContentsType =
        ]},
       { name: 'DSL Development', markdown: `undefined`, path: '/Services/DSL_Development',
         content: [
-         { name: 'DSL Development', markdown: `# Development of Domain Specific Languages
+         { name: 'DSL Development', markdown: `# Development of Domain Specific Languages on the Web
 
 We can help you to develop your own Domain Specific Language for your own technical or business domain.
 
@@ -262,6 +290,7 @@ To ensure that any model driven solutions that we deliver can be fully maintaine
          { name: 'Project Execution', markdown: `# Projects
 
 We can execute complete projects,  either in a mixed team with you own developers,  or with a dedicated team fron my network.
+I have a large network of independent experts for all roles needed for delivering a project.
 
 `, path: '/Services/Project_Execution'},
        ]},
@@ -280,23 +309,6 @@ If you are interested, you can contact Jos Warmer and we can discuss the possibi
 `, path: '/Services/Research'},
        ]},
     ]};
-export const backgroundToc: TocContentsType = 
-   { name: 'Background', markdown: `PATH: /Background`, path: '/Background',
-     content: [
-      { name: 'Overview', markdown: `undefined`, path: '/Background/Overview',
-        content: [
-         { name: 'Overview', markdown: `# A Bit of Background
-
-`, path: '/Background/Overview'},
-       ]},
-      { name: 'About the Authors', markdown: `undefined`, path: '/Background/About_the_Authors',
-        content: [
-         { name: 'About the Authors', markdown: `# About the Authors
-
-TODO
-`, path: '/Background/About_the_Authors'},
-       ]},
-    ]};
 		
 export const allCategories: CategoryInfoType[] = [
 	{name: 'Freon', path: '/Freon', toc: freonToc},
@@ -305,6 +317,5 @@ export const allCategories: CategoryInfoType[] = [
 		{name: 'Mdd', path: '/Mdd', toc: mddToc},
 		{name: 'Projects', path: '/Projects', toc: projectsToc},
 		{name: 'LionWeb', path: '/LionWeb', toc: lionWebToc},
-		{name: 'Services', path: '/Services', toc: servicesToc},
-		{name: 'Background', path: '/Background', toc: backgroundToc}
+		{name: 'Services', path: '/Services', toc: servicesToc}
 ];

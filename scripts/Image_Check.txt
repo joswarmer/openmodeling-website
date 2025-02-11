@@ -1,9 +1,12 @@
-Found 7 unused images:
+Found 10 unused images:
 	Not used: en.gif.
 	Not used: freonlogo.png.
 	Not used: itemis.gif.
+	Not used: jos.jpg.
+	Not used: jos2.jpg.
 	Not used: logo.png.
+	Not used: meinte-signing-book.jpeg.
 	Not used: nl.gif.
 	Not used: openmodeling-logo.svg.
 	Not used: openmodeling-logo2.svg.
-Total errors: 0, total warnings: 7.
+Total errors: 0, total warnings: 10.

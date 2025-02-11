@@ -15,7 +15,7 @@ Praktisch UML is een handleiding voor het toepassen van de Unified Modeling Lang
 *  een beschrijving van de Object Constraint Language;
 *  een complete werkwijze waarmee de diagrammen ontwikkeld kunnen worden;
 *  een doorlopende case, ter illustratie van deze werkwijze;
-*  een website met opgavenmateriaal dat aansluit bij de behandelde stof: www.pearsoneducation.nl/warmer.
+*  een website met opgavenmateriaal dat aansluit bij de behandelde stof: <a target="_blank" href="https://www.pearson.com/nl/nl_NL/hoger-onderwijs/catalogus/informatica/praktisch-uml-5e-editie.html">zie Pearson site</a>.
 
 Praktisch UML is bedoeld voor iedereen die op een of andere manier betrokken is bij objectgeoriënteerde systeemontwikkeling. Het kan dienen als introductie tot UML of naslagwerk voor zowel studenten als professionele automatiseerders.
 

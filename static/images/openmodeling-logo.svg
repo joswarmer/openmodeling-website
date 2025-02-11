@@ -120,13 +120,13 @@ BL4VAA==")}
 								<region  textMatrix="1 0 0 1 0 0">
 									<path d="M28,43"/>
 								</region>
-								<flow  xmlns="&ns_flows;"  font-family="'Bauhaus93'" font-size="21">
+								<flow  xmlns="&ns_flows;"  font-family="Verdana" font-size="21">
 									<p><span  fill="#6C0500">OpenModeling</span></p>
 								</flow>
 							</flowDef>
 							<x:targetRef  xlink:href="#XMLID_1_" />
 						</foreignObject>
-						<text id="XMLID_1_" transform="matrix(1 0 0 1 27.5698 43)"><tspan x="0" y="0" fill="#6C0500" font-family="'Bauhaus93'" font-size="21">OpenModeling</tspan></text>
+						<text id="XMLID_1_" transform="matrix(1 0 0 1 27.5698 43)"><tspan x="0" y="0" fill="#6C0500" font-family="Verdana" font-size="21">OpenModeling</tspan></text>
 					</switch>
 					<path i:knockout="Off" fill="none" stroke="#E9FFDF" stroke-width="18" d="M199.184,60.092"/>
 					<path i:knockout="Off" fill="none" stroke="#E9FFDF" stroke-width="18" d="M199.184,21.908"/>
